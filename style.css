@@ -1,0 +1,119 @@
+*,
+*::before,
+*::after{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+h1{
+    font-size:4rem;
+    font-family: cursive;
+    font-style: oblique;
+    margin-bottom: 1rem;
+}
+
+a{
+    color:black;
+    font-weight:bold;
+    text-decoration: none;
+}
+
+
+nav{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: teal;
+}
+
+ul li{
+    list-style-type: none;
+    display:inline-block;
+    margin-left:5rem;
+}
+
+ul li a{
+    color:white;
+}
+
+a[href="logo"]{
+    color:teal;
+    background-color:white;
+    padding:1rem 0.5rem;
+}
+
+section.intro{
+    min-height: 100vh;
+    color:white;
+    display:grid;
+    place-content:center;
+    text-align:center;
+    background-image:url(school\ banner2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section.contact{
+    background-color: white;
+    color:black;
+    text-align: center;
+    min-height:80vh ;
+    padding-top: 150px;
+}
+hr{
+    position: relative;
+        top: 20px;
+        border: none;
+        height: 5px;
+        background: rgb(1, 83, 30);
+        margin-bottom: 25px;
+}
+.socials{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 2rem;
+    padding-left: 40rem;
+    padding-right: 40rem;
+}
+.socials1{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding-left: 40rem;
+    padding-right: 40rem;
+    justify-content: space-around;
+}
+footer{
+    background-color: black;
+    color: aliceblue;
+    min-height: 10vh;
+}
+
+.row{
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    width:100%;
+  }
+/* a:link{
+
+}
+
+a:visited{
+
+}
+
+a:hover{
+
+}
+
+a:active{
+
+} */
